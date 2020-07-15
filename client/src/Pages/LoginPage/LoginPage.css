@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  height: 75vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* background: #f0efef; */
+}
+
+.paper {
+  position: relative;
+  width: 370px;
+  height: auto;
+  margin: 20px;
+  background: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  align-items: center;
+  flex-direction: column;
+
+  border-radius: 5px;
+}
+
+.textSatu {
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-top: 20px;
+
+  background-color: #001529;
+}
+
+.button button {
+  color: #fff;
+  padding: 10 0;
+}
